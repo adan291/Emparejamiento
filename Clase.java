@@ -65,16 +65,23 @@ public class Clase
      */
     public void hacerParejas2 ()
     {
-       ArrayList<String> copia = new ArrayList<>();
-       copia = (ArrayList)alumnos.clone();
-       
+       String alumno;
+       boolean emparejamiento = false;
        int alumnosTotal = 0;
        while (alumnosTotal < alumnos.size()){
            Random aleatorio = new Random();
            aleatorio.nextInt(copia.size());
            alumnosTotal++;
-           System.out.println(alumnos);
-        }
+           
+          if (emparejamiento){
+               alumno = alumno+copia;
+               emparejamiento = false;
+            }
+            else{
+                alumno = copia;
+                emparejamiento = true;
+            }
+       }
     }
     
 }
