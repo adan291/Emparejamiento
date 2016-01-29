@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Clase()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Clase\r\n
+comment1.params=
+comment1.target=void\ hacerParejas()
+comment1.text=\r\n\ Metodo\ que\ empareja\ a\ los\ alumnos\ mediante\ un\ numero\r\n
+comment2.params=
+comment2.target=void\ hacerParejas2()
+comment2.text=\r\n\ Metodo\ que\ empareja\ a\ los\ alumnos\ mediante\ un\ numero\r\n
+numComments=3
